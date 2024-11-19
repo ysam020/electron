@@ -1,0 +1,89 @@
+.dashboard {
+  padding: 20px 0;
+
+  .dashboard-container {
+    margin: 10px 0;
+  }
+
+  #dashboard-personal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("../assets/images/personal.png");
+    background-repeat: no-repeat !important;
+    background-position: right !important;
+    height: 185px;
+    padding: 0 25px;
+    background-color: #1abc9c;
+
+    p {
+      color: #fff;
+      font-size: 20px;
+    }
+    h1 {
+      color: #ffb101;
+      font-weight: 800;
+      font-size: 22px;
+    }
+  }
+
+  .attendance-row-1,
+  .attendance-row-2 span {
+    font-weight: 600;
+    font-size: 24px;
+  }
+
+  .attendance-row-1 span {
+    &.total-leaves {
+      color: #6c5efc;
+    }
+
+    &.leaves-taken {
+      color: #19bc9b;
+    }
+
+    &.leaves-absent {
+      color: #33b43a;
+    }
+  }
+
+  .attendance-row-2 span {
+    &.pending-approval {
+      color: #9746ff;
+    }
+
+    &.working-days {
+      color: #80caff;
+    }
+
+    &.loss-of-pay {
+      color: #ff3a29;
+    }
+  }
+
+  .attendance-row p {
+    color: #878a99;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .notification-container {
+    background-color: #efefef;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 10px;
+
+    h6 {
+      font-weight: 600;
+    }
+    span {
+      color: #888a92;
+      font-weight: 500;
+    }
+    p {
+      color: #6a6c71;
+      font-size: 14px;
+      margin-top: 10px !important;
+    }
+  }
+}

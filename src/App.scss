@@ -1,0 +1,176 @@
+.App {
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+}
+
+.flex-div {
+  display: flex;
+  align-items: center;
+}
+
+.input-hidden {
+  display: none;
+}
+
+.btn {
+  background-color: #111b21 !important;
+  color: #fff !important;
+  padding: 10px;
+  cursor: pointer;
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.3);
+  margin-top: 10px;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #111b21 !important;
+  color: #fff !important;
+}
+
+.MuiButton-startIcon {
+  margin: 0 !important;
+}
+
+.link {
+  color: blue;
+  cursor: pointer;
+}
+
+/* Table */
+.table {
+  background-color: #fff;
+  border: none;
+}
+
+/* DataGrid row min-height */
+.MuiDataGrid-row.MuiDataGrid-row--dynamicHeight {
+  min-height: 50px !important;
+}
+
+/* Disable cell border on cell click */
+.MuiDataGrid-cell:focus-within,
+.MuiDataGrid-columnHeader:focus-within {
+  outline: none !important;
+}
+
+.MuiDataGrid-iconSeparator {
+  display: none !important;
+}
+
+/* Reduce padding on icon button container */
+.MuiDataGrid-iconButtonContainer {
+  padding-right: 8px !important;
+}
+
+.MuiTableRow-root.MuiDataGrid-cell {
+  display: flex !important;
+  align-items: center !important;
+  text-align: center !important;
+  justify-content: center !important;
+}
+
+.Mui-TableBodyCell-DetailPanel {
+  background-color: #f9fafb !important;
+}
+
+.MuiTableCell-root {
+  flex-direction: column !important;
+  .MuiInputBase-root {
+    font-size: 0.8rem !important;
+  }
+}
+
+.Mui-TableHeadCell-Content-Wrapper,
+.MuiTableCell-root {
+  white-space: normal !important;
+}
+
+.MuiListItemText-secondary {
+  text-align: right !important;
+}
+
+.form {
+  h5 {
+    margin-top: 20px;
+  }
+}
+
+.p-icon-field,
+.p-dropdown {
+  width: 100% !important;
+}
+.p-input-icon {
+  top: 30% !important;
+  margin: 0 !important;
+}
+
+.p-password,
+.p-calendar {
+  width: 100% !important;
+}
+.p-inputtext,
+.p-password-input {
+  height: 45px !important;
+  width: 100% !important;
+  padding: 10px !important;
+  margin: 5px 0 !important;
+}
+
+.p-error {
+  color: #f15c6d !important;
+}
+
+a .MuiTypography-body2 {
+  color: #0a5fae !important;
+}
+
+.dashboard-container {
+  box-shadow: 2px 2px 50px 10px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.calendar-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.p-datepicker {
+  border: none !important;
+}
+
+.card.flex {
+  border: none !important;
+}
+
+.p-datepicker-month,
+.p-datepicker-year {
+  margin: 0 10px !important;
+}
+
+.p-datepicker-calendar-container {
+  padding: 20px !important;
+}
+
+.card-header {
+  background-color: #fff;
+}
+
+.MuiAlert-root {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 400px;
+}
+
+.key {
+  border: 1px solid #0a5faf;
+  color: #0a5faf;
+  background-color: #f9fafb;
+  margin: 0 3px;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 2px rgb(10, 95, 175, 0.3);
+}
